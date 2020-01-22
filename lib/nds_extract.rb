@@ -7,8 +7,10 @@ def gross_for_director(director_data)
   total = 0 
   outer_index = 0 
   while outer_index < director_data.length
-  director_movies.length.times do |i|
-    total += director_movies[i][:worldwide_grosses]
+    director_movies = director_data[outer_index][:movies]
+    director_movies.length.times do |i|
+      total += director_movies[i][:worldwide_grosses]
+    end
   end
   return total
 end
