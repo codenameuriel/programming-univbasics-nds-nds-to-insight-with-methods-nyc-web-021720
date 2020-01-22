@@ -27,7 +27,4 @@ def directors_totals(nds)
     outer_index += 1 
   end
   return result
-  
-  
-  nil
 end
