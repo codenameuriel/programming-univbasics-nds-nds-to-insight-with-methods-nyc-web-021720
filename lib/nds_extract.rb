@@ -29,8 +29,6 @@ def directors_totals(nds)
     director_data = nds[outer_index]
     director_name = director_data[:name]
     result[director_name] = gross_for_director(director_data)
-    
-    # result[director_name] = gross_for_director(director_data)
     outer_index += 1
   end
   return result
