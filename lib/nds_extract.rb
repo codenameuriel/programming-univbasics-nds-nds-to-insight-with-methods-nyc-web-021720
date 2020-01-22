@@ -10,6 +10,7 @@ def gross_for_director(director_data)
   director_movies.length.times |i| do
     total += director_movies[i][:worldwide_grosses]
   end
+  return total
 end
 
 # Write a method that, given an NDS creates a new Hash
