@@ -5,7 +5,7 @@ require 'directors_database'
 # using director_data as input
 def gross_for_director(director_data)
   total = 0 
-  directors_movie = directors_data[outer_index][:movies]
+  directors_movies = directors_data[outer_index][:movies]
   outer_index = 0 
   director_movie.length.times |i| do
     total += 
