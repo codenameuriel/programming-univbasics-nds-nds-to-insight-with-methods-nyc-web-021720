@@ -3,7 +3,7 @@ require 'directors_database'
 
 # Find a way to accumulate the :worldwide_grosses and return that Integer
 # using director_data as input
-director_data = nds[outer_index]
+
 
 def gross_for_director(director_data)
   total = 0 
@@ -16,6 +16,8 @@ def gross_for_director(director_data)
   end
   return total
 end
+
+director_data = nds[outer_index]
 
 # Write a method that, given an NDS creates a new Hash
 # The return value should be like:
