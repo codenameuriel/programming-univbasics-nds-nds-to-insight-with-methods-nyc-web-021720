@@ -10,7 +10,7 @@ def gross_for_director(director_data)
     director_data[:movies].length.times do |i|
       total += director_data[:movies][i][:worldwide_grosses]
     end
-    outer_index += 1
+    movies_index += 1
   end
   return total
 end
