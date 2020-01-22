@@ -23,6 +23,7 @@ def directors_totals(nds)
   result = {}
   outer_index = 0 
   while outer_index < nds.length do
+    result[nds[outer_index][:nme]
     gross_for_director(director_data)
     
   
