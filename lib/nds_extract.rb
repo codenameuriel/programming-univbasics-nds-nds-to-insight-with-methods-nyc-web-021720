@@ -22,7 +22,8 @@ end
 def directors_totals(nds)
   result = {}
   outer_index = 0 
-  
+  while outer_index < nds.length do
+    gross_for_director(director_data)
   
   
   nil
