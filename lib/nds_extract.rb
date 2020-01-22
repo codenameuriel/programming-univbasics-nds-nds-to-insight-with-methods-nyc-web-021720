@@ -17,7 +17,6 @@ def gross_for_director(director_data)
   return total
 end
 
-director_data = nds[outer_index]
 
 # Write a method that, given an NDS creates a new Hash
 # The return value should be like:
